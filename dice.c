@@ -3,7 +3,7 @@
 #include <math.h>
 #include <time.h>
 
-float throwCounter(int N,int* counter){
+float Variance(int N,int* counter){
     /*
        Simulates N throws of a uniform fair dice.
        
@@ -52,7 +52,7 @@ float av;
 	    i = 0;
 	    N = 100;
 	    do{
-		 variance=throwCounter(N,counter);
+		 variance=Variance(N,counter);
 		 printf("\nVariance at N=%d = %f\nConvergence rate: %.20f",N,variance,fabs(variance - L)/L);
 		 i++;
                  N = N*10;
