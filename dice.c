@@ -3,8 +3,6 @@
 #include <math.h>
 #include <time.h>
 
-//function that returns a number+1 divided by its decimal order
-
 float throwCounter(int N,int* counter){
     /*
        Simulates N throws of a uniform fair dice.
